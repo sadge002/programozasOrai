@@ -1,0 +1,40 @@
+#fotartalom{
+    grid-area: ft;
+}
+
+#menu{
+    grid-area: m;
+}
+
+#bejelentkezes{
+    grid-area: b;
+}
+
+#baltartalom{
+    grid-area: bt;
+}
+
+#jobbtartalom{
+    grid-area: jt;
+}
+
+#keszitette{
+    grid-area: k;
+}
+
+#osztaly{
+    grid-area: o;
+}
+
+#elerhetoseg{
+    grid-area: e;
+}
+
+#tartalom{
+    display: grid;
+    grid-template-areas: 
+    'm m m ft b b'
+    'm m m ft bt jt'
+    'k k o e e e'
+    ;
+}
